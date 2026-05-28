@@ -1,0 +1,26 @@
+{
+    "env": {
+        "msvcInclude": "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include"
+    },
+    "configurations": [
+        {
+            "name": "x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:VCPKG_ROOT}/installed/x64-windows/include", // If you defined the vcpkg directory (C:/vcpkg) as VCPKG_ROOT in your system environment, then ${env:VCPKG_ROOT} = C:/vcpkg.
+                "${msvcInclude}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

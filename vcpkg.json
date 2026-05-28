@@ -1,0 +1,7 @@
+{
+  "name": "snippet-vscode-cmake-vcpkg",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "fmt"
+  ]
+}
