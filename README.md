@@ -1,4 +1,4 @@
-# vscode_cmake_vcpkg_github
+# VS Code ではじめる C/C++ 環境
 
 VS Code で `CMake` と `vcpkg` を使って C++ 開発環境を作るための最小サンプルです。 `CMake` はビルド管理システムとして使用し、 `vcpkg` は外部のC/C++パッケージを管理するライブラリです。 
 このプロジェクトでは `fmt` を `vcpkg` の manifest mode で導入しています。なお、Githubでの設定は https://github.com/KawabaSho/Tutorial_vscode_python_uv を参考にしてください。
