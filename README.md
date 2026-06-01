@@ -78,7 +78,7 @@ code .
 
 CMakeでビルド管理しているため、VS Code で警告が表示されていても正常に動きますが、精神的ストレスを与えてくるので、 `includePath` と `compilerPath` に適切な情報を登録していきます。なお、`"env":{...}` は `c_cpp_properties.json` 内で変数を定義する場合の書き方です。自身のコンパイラーのバージョンにあったパスに書き直してください。ただし、本来は `c_cpp_properties.json` を直接書き換えることは推奨されていないため、`F1 + "C/C++: Edit Configurations (UI)"` でUIを開き、編集してください。
 
-## CMakePreset.json を確認する
+## CMakePresets.json を確認する
 ### コンパイラ構成
 このプロジェクトは `CMakePresets.json` の `Default` preset を使ってビルド環境を作っています。現在の設定では generator が `Visual Studio 18 2026` になっています。これは、Visual StudioのMSVC を使ってビルドすることを意味します。
 
