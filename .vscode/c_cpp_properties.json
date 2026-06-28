@@ -1,6 +1,6 @@
 {
     "env": {
-        "msvcInclude": "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include"
+        "msvcInclude": "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/include"
     },
     "configurations": [
         {
